@@ -1,0 +1,20 @@
+app:
+    sources:
+      dshop:
+       tables:
+        - orders
+        - products
+        - departments
+        - aisles
+        - clients
+        - stores
+        - store_types
+        - location_areas
+     stock:
+      schema:
+       date:
+        type: DateType
+        nullable: False
+       product_id:
+        type: IntegerType
+        nullable: False
